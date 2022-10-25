@@ -21,17 +21,12 @@ public class App {
         
         i = 0;
                 
-        while(true){
+        while(i < 10){
             
             multiplos = num * i;
             System.out.println("El " + (i + 1) + "º múltiplo del número introducido es: " + multiplos);
             
             i++;
-            
-            if(i == 10){
-                break;
-            }
-        }
-        
+        }   
     }
 }
